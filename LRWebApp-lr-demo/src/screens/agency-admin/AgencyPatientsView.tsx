@@ -668,7 +668,7 @@ export default function AgencyPatientsView({}: Props) {
 
       {/* Add Patient Modal */}
       <Dialog open={isAddPatientModalOpen} onOpenChange={setIsAddPatientModalOpen}>
-        <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+        <DialogContent className="max-w-2xl max-h-[75vh] overflow-y-auto rounded-xl">
           <DialogHeader>
             <DialogTitle>Add New Patient</DialogTitle>
             <DialogDescription>
@@ -950,7 +950,7 @@ export default function AgencyPatientsView({}: Props) {
 
       {/* Edit Patient Modal */}
       <Dialog open={isEditPatientModalOpen} onOpenChange={setIsEditPatientModalOpen}>
-        <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+        <DialogContent className="max-w-2xl max-h-[75vh] overflow-y-auto rounded-xl">
           <DialogHeader>
             <DialogTitle>Edit Patient</DialogTitle>
             <DialogDescription>
